@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://www.thoughtco.com/thmb/ns8iAXaXV-PxWrdpXGQr6sETzb8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/thermometer-sun-high-degres--hot-summer-day--high-summer-temperatures-1010691618-2a5ca45876424dffbef441d73ae896b8.jpg") no-repeat center/cover;
+    background-size: 100% 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.items {
+    padding: 10px;
+    background-color: wheat;
+    border-radius: 10px;
+}
+
+.text {
+    font-size: 1.5rem;
+
+}
+
+.box {
+    height: 1.5rem;
+    width: 90%;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    border-radius: 5px;
+
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: rgb(215, 215, 231);
+    border-radius: 10px;
+}
+
+#output {
+    display: block;
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+
+}
+#convert {
+    display: block;
+    width: 40%;
+    margin: auto;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+#convert:hover {
+    background-color: grey;
+    color: white;
+}
